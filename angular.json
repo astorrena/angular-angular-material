@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "anguar-angular-material": {
+    "angular-angular-material": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/anguar-angular-material",
+            "baseHref": "/angular-angular-material/",
+            "outputPath": "dist/angular-angular-material",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "anguar-angular-material:build:production"
+              "buildTarget": "angular-angular-material:build:production"
             },
             "development": {
-              "buildTarget": "anguar-angular-material:build:development"
+              "buildTarget": "angular-angular-material:build:development"
             }
           },
           "defaultConfiguration": "development"

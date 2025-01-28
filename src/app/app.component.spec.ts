@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'anguar-angular-material' title`, () => {
+  it(`should have the 'angular-angular-material' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('anguar-angular-material');
+    expect(app.title).toEqual('angular-angular-material');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, anguar-angular-material');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-angular-material');
   });
 });

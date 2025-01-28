@@ -1,5 +1,5 @@
 {
-  "name": "anguar-angular-material",
+  "name": "angular-angular-material",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:anguar-angular-material": "node dist/anguar-angular-material/server/server.mjs"
+    "serve:ssr:angular-angular-material": "node dist/angular-angular-material/server/server.mjs"
   },
   "private": true,
   "dependencies": {
